@@ -1,4 +1,9 @@
 <template>
+<!-- 解决三个问题：
+    1. 三个弹框合为一个弹框的问题
+    2. 再次打开弹框，验证结果依然存在问题
+    3. 如何拿到form表单验证结果的问题
+ -->
   <div>
     <el-button type="text" @click="open()"
       >点击打开 Dialog</el-button
