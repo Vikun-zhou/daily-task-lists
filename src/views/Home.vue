@@ -2,6 +2,7 @@
  <div class="">
    <!-- <A></A> -->
    <Container></Container>
+   <Dialog></Dialog>
  </div>
 </template>
  
@@ -9,6 +10,7 @@
 
 // import A from './A.vue'
 import Container from '@/views/Container'
+import Dialog from './Dialog.vue'
 
 
 
@@ -16,7 +18,8 @@ export default {
  name: 'Home',
  components:{
   //  A,
-  Container
+  Container,
+  Dialog
  },
  data () {
    return {
